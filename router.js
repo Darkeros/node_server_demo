@@ -3,7 +3,7 @@ function route(handle, pathname) {
   if (typeof handle[pathname] === 'function') {
     handle[pathname]
   } else {
-    console.log('__s______' + pathname)
+    console.log('________' + pathname)
   }
 }
 function start(pathname) {

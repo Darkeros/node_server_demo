@@ -6,5 +6,4 @@ var handle = {}
 handle['/'] = requestHandlers.start
 handle['/start'] = requestHandlers.start
 handle['/upload'] = requestHandlers.upload
-console.log(1)
 server.start(router.route, handle)
